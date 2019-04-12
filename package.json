@@ -1,0 +1,7 @@
+{
+  "name": "android-version-fix",
+  "version": "0.0.1",
+  "description": "处理 Android 系统为 q, p 等的版本号导致识别报错的插件",
+  "author": "Cocos Creator",
+  "main": "main.js"
+}
