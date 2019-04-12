@@ -4,7 +4,7 @@ const Fs = require('fire-fs');
 const Path = require('fire-path');
 
 const REGX_GETSYSTEMINFOSYNC = /(\w+)\s*=\s*wx\.getSystemInfoSync/;
-const REGX_OSVERSION = /(\w+.osVersion\s*=\s*)(\w+)\[0]/;
+const REGX_OSVERSION = /(\w+\.osVersion\s*=\s*)(\w+)\[0\]/;
 
 const VERSIONS = ['1.8.2', '1.9.1', '1.9.2', '1.9.3', '1.10.1', '1.10.2'];
 
