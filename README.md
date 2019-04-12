@@ -6,7 +6,7 @@
 
 如何使用插件：
   下载该插件文件后：
-  1. 适用于全局（所有项目）下，只需要将 android-version-fix 文件夹存放到 `用户/.CocosCreator/` 下即可
+  1. 适用于全局（所有项目）下，只需要将 android-version-fix 文件夹存放到 `用户/.CocosCreator/packages` 下即可
   2. 适用于单个项目下只需要将文件夹存放到与 assets 文件同级的 packages 文件夹下（如果没有可以自行创建一个）
   
 如何使用：
