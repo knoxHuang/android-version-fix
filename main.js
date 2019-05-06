@@ -46,10 +46,10 @@ function ReplaceOsVersion (opts, cb) {
 
 module.exports = {
   load() {
-    Editor.Builder.on('build-finished', ReplaceOsVersion);
+    Editor.Builder.on('before-change-files', ReplaceOsVersion);
   },
 
   unload() {
-    Editor.Builder.removeListener('build-finished', ReplaceOsVersion);
+    Editor.Builder.removeListener('before-change-files', ReplaceOsVersion);
   },
 };
